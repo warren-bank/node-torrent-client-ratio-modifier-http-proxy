@@ -1,0 +1,33 @@
+{
+  "name": "@warren-bank/torrent-ratio-proxy",
+  "version": "0.1.0",
+  "main": "lib/process_cli.js",
+  "description": "Command-line HTTP proxy server for use with BitTorrent clients to modify the upload/download ratio reported to trackers",
+  "license": "GPL-2.0",
+  "scripts": {
+    "start":     "node bin/torrent-ratio-proxy.js",
+    "sudo": "sudo node bin/torrent-ratio-proxy.js"
+  },
+  "bin": {
+    "torrent-ratio-proxy": "bin/torrent-ratio-proxy.js"
+  },
+  "dependencies": {
+    "@warren-bank/node-process-argv": "^1.2.1",
+    "@warren-bank/node-request": "^2.0.10"
+  },
+  "author": {
+    "name": "Warren R. Bank",
+    "email": "warren.r.bank@gmail.com",
+    "url": "https://github.com/warren-bank"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/warren-bank/node-torrent-client-ratio-modifier-http-proxy"
+  },
+  "keywords": [
+    "BitTorrent",
+    "torrent",
+    "ratio",
+    "proxy"
+  ]
+}
