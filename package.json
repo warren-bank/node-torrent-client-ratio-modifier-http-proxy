@@ -1,6 +1,6 @@
 {
   "name": "@warren-bank/torrent-ratio-proxy",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "main": "lib/process_cli.js",
   "description": "Command-line HTTP proxy server for use with BitTorrent clients to modify the upload/download ratio reported to trackers",
   "license": "GPL-2.0",
@@ -13,7 +13,8 @@
   },
   "dependencies": {
     "@warren-bank/node-process-argv": "^1.2.1",
-    "@warren-bank/node-request": "^2.0.10"
+    "@warren-bank/node-request": "^2.0.10",
+    "@warren-bank/url": "^1.0.0"
   },
   "author": {
     "name": "Warren R. Bank",
